@@ -12,5 +12,17 @@ public class Main {
         System.out.println(karekterler);
         System.out.println(mesaj.indexOf('f')); // f kaçıncı karekter
         System.out.println(mesaj.lastIndexOf('s')); // f kaçıncı karekter
+
+        System.out.println(mesaj.replace(' ','-'));
+        System.out.println(mesaj.substring(1));
+        System.out.println(mesaj.substring(1,4));//birden başla 4 e kadar yaz
+
+        for (String kelime: mesaj.split(" ")) {
+            System.out.println(kelime);
+        }
+
+        System.out.println(mesaj.toLowerCase()); // bütün harfleri küçültür
+        System.out.println(mesaj.toUpperCase()); // bütün harfleri büyültür
+
     }
 }
